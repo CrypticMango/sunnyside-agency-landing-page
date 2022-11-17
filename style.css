@@ -27,10 +27,21 @@ body {
     font-size: 18px;
 }
 
+footer {
+    text-align: center;
+}
+
 .attribution {
-	font-size: 11px;
+	font-size: 13px;
 	text-align: center;
+    margin: 20px;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--soft-red);
+}
+
+.fa-brands {
+    color: var(--soft-red);
+    margin: 30px;
+    font-size: 30px;
 }
