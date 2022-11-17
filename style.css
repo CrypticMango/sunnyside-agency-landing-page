@@ -44,6 +44,8 @@ img {
     width: 100%;
 }
 
+/*header start*/
+
 .the-burger {
     width: auto;
 }
@@ -65,9 +67,17 @@ img {
     top: 0px;
 }
 
+/*header end*/
+
+
+
+/*bottom section*/
+
 .sunny-logo-bottom {
     color: var(--dark-grayish-cyan);
 }
+
+/*footer*/
 
 .attribution {
 	font-size: 13px;
