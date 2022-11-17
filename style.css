@@ -31,6 +31,40 @@ footer {
     text-align: center;
 }
 
+header {
+    margin-top: 40px;
+}
+
+h1 {
+    margin-bottom: 99px;
+    color: var(--white);
+}
+
+img {
+    width: 100%;
+}
+
+.sunny-logo-top {
+    width: auto;
+}
+
+.white-down-arrow {
+    width: 20%;
+}
+
+.header-img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0px;
+}
+
+.sunny-logo-bottom {
+    color: var(--dark-grayish-cyan);
+}
+
 .attribution {
 	font-size: 13px;
 	text-align: center;
