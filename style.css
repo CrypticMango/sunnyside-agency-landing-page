@@ -117,6 +117,9 @@ ul {
     background-color: var(--white);
     text-align: center;
     padding: 10px 0px 10px 0px;
+    position: absolute;
+    width: 320px;
+    margin-top: 50px;
 }
 
 li {
