@@ -31,6 +31,8 @@ body {
 
 footer {
 	text-align: center;
+    background-color: hsl(168, 52%, 74%);
+    width: 375px;
 }
 
 header {
@@ -262,15 +264,33 @@ a {
 
 /*bottom section*/
 
-.sunny-logo-bottom {
-	color: var(--dark-grayish-cyan);
+.bottom-logo {
+   margin-top: 60px;
+}
+
+.bottom-links {
+    margin: 0 auto;
+    padding: 30px 0px 90px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.bottom-links a {
+    color: var(--dark-moderate-cyan);
 }
 
 .socials {
-	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.socials img {
+    filter: invert(18%) sepia(88%) saturate(259%) hue-rotate(117deg) brightness(92%) contrast(87%);
+    width: 20px;
 }
 
 /*footer*/
@@ -278,14 +298,15 @@ a {
 .attribution {
 	font-size: 13px;
 	text-align: center;
-	margin: 20px;
+	margin: 40px;
+    color: var(--dark-moderate-cyan);
 }
 .attribution a {
-	color: var(--soft-red);
+	color: var(--very-dark-desaturated-blue);
 }
 
 .fa-brands {
-	color: var(--soft-red);
+	color: var(--very-dark-desaturated-blue);
 	margin: 30px;
 	font-size: 30px;
 }
