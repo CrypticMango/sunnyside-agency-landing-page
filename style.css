@@ -243,6 +243,20 @@ a {
     margin-bottom: 60px;
 }
 
+/*four picture grid*/
+
+.img-grid {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.img-grid img {
+    display: block;
+}
+
 /*bottom section*/
 
 .sunny-logo-bottom {
