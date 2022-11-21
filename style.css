@@ -368,5 +368,7 @@ a {
 	}
 
 	/*desktop testimonials horizontal styling*/
-
+	.testimonials-desktop {
+		display: flex;
+	}
 }
