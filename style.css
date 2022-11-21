@@ -314,6 +314,7 @@ a {
 	font-size: 30px;
 }
 
+/*desktop styling*/
 
 @media (min-width:1440px) {
 	header {
@@ -399,34 +400,67 @@ a {
 
 	.desktop-grid-container {
 		display: grid;
-		grid-template-columns: repeats(2, 1fr);
-		grid-auto-rows: minmax(100px, auto);
+		grid-template-columns: 720px repeats(2, 1fr);
+		grid-auto-rows: minmax(720px, 720px);
 	}
+
+	/*egg*/
 
 	.d-grid-one {
 		grid-column: 2;
 		grid-row: 1;
 	}
 
+	/*transform text*/
+
 	.d-grid-two {
 		grid-column: 1;
 		grid-row: 1;
+		margin-top: 80px;
+		text-align: left;
+		padding-left: 140px;
+		padding-top: 160px;
 	}
+
+	.d-grid-two h2 {
+		padding: 0px;
+	}
+
+	.d-grid-two p {
+		padding: 0px;
+	}
+
+	/*pink cup*/
 
 	.d-grid-three {
 		grid-column: 1;
 		grid-row: 2;
 	}
 
+	/*stand out text*/
+
 	.d-grid-four {
 		grid-column: 2;
 		grid-row: 2;
+		text-align: left;
 	}
+
+	.d-grid-four h2 {
+		padding: 0px;
+	}
+
+	.d-grid-four p {
+		padding: 0px;
+	}
+
+	/*cherry graphic design*/
 
 	.d-grid-five {
 		grid-column: 1;
 		grid-row: 3;
 	}
+
+	/*orange photography*/
 
 	.d-grid-six {
 		grid-column: 2;
