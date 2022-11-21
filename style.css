@@ -37,6 +37,7 @@ footer {
 
 header {
 	margin-top: 30px;
+	width: 100%;
 }
 
 h1,
@@ -315,9 +316,68 @@ a {
 
 
 @media (min-width:1440px) {
+	header {
+		margin-top: 20px;
+	}
+	
+	nav {
+		margin: 0px 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	ul {
+		background-color: unset;
+		position: unset;
+		width: unset;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	li a {
+		color: var(--white);
+	}
+
+	h1 {
+		font-size: 58px;
+		letter-spacing: 8px;
+	}
+
+	/*top nav bar desktop*/
+
+	.the-burger {
+		display: none;
+	}
+
+	.sunny-logo-top {
+		display: none;
+	}
+
+	.sunny-logo-top-d {
+		display: inline-block;
+		width: auto;
+		height: 30px;
+	}
+
+	.top-menu {
+		display: unset;
+	}
+
+	.contact {
+		background-color: var(--white);
+		padding: 12px 22px;
+	}
+
+	/*header*/
+
 	.header-img{
 		display: none;
-		
 	}
 
 	.header-img-dt {
@@ -327,6 +387,12 @@ a {
 		left: 0;
 		right: 0;
 		top: 0px;
+	}
+	
+	.white-down-arrow {
+		width: 35px;
+		margin-top: 60px;
+		margin-bottom: 190px;
 	}
 
 	/*grid setup*/
