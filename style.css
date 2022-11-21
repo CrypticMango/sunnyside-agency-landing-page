@@ -371,4 +371,8 @@ a {
 	.testimonials-desktop {
 		display: flex;
 	}
+
+	.img-grid {
+		grid-template-columns: repeat(4, 1fr);
+	}
 }
