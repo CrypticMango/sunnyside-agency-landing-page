@@ -167,9 +167,11 @@ a {
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: 900;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 80px;
 	line-height: 7px;
 	width: 120px;
+	
 }
 
 .learn-more-b:after {
@@ -309,4 +311,62 @@ a {
 	color: var(--very-dark-desaturated-blue);
 	margin: 30px;
 	font-size: 30px;
+}
+
+
+@media (min-width:1440px) {
+	.header-img{
+		display: none;
+		
+	}
+
+	.header-img-dt {
+		width: 100%;
+		position: absolute;
+		z-index: -1;
+		left: 0;
+		right: 0;
+		top: 0px;
+	}
+
+	/*grid setup*/
+
+	.desktop-grid-container {
+		display: grid;
+		grid-template-columns: repeats(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+	}
+
+	.d-grid-one {
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.d-grid-two {
+		grid-column: 1;
+		grid-row: 1;
+	}
+
+	.d-grid-three {
+		grid-column: 1;
+		grid-row: 2;
+	}
+
+	.d-grid-four {
+		grid-column: 2;
+		grid-row: 2;
+	}
+
+	.d-grid-five {
+		grid-column: 1;
+		grid-row: 3;
+	}
+
+	.d-grid-six {
+		grid-column: 2;
+		grid-row: 3;
+	}
+
+	/*desktop testimonials horizontal styling*/
+
 }
