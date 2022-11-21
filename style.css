@@ -396,6 +396,14 @@ a {
 		margin-bottom: 190px;
 	}
 
+	.yellow-eggy {
+		width: 720px;
+	}
+
+	.cup-pink {
+		width: 720px;
+	}
+
 	/*grid setup*/
 
 	.desktop-grid-container {
@@ -409,6 +417,7 @@ a {
 	.d-grid-one {
 		grid-column: 2;
 		grid-row: 1;
+		
 	}
 
 	/*transform text*/
@@ -418,12 +427,12 @@ a {
 		grid-row: 1;
 		margin-top: 80px;
 		text-align: left;
-		padding-left: 140px;
-		padding-top: 160px;
+		padding: 140px;
 	}
 
 	.d-grid-two h2 {
 		padding: 0px;
+		font-size: 37px;
 	}
 
 	.d-grid-two p {
@@ -443,10 +452,13 @@ a {
 		grid-column: 2;
 		grid-row: 2;
 		text-align: left;
+		padding: 150px;
 	}
 
 	.d-grid-four h2 {
 		padding: 0px;
+		font-size: 37px;
+		
 	}
 
 	.d-grid-four p {
@@ -467,7 +479,14 @@ a {
 		grid-row: 3;
 	}
 
+
+
 	/*desktop testimonials horizontal styling*/
+
+	.testimonials-title {
+		margin-top: 600px;
+	}
+
 	.testimonials-desktop {
 		display: flex;
 	}
