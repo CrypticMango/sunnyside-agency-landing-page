@@ -27,6 +27,7 @@ body {
 	font-size: 18px;
 	font-family: var(--barlow);
 	text-align: center;
+	overflow-x: hidden;
 }
 
 footer {
@@ -270,7 +271,7 @@ a {
 
 /*four picture grid*/
 
-.img-grid {
+.img-grid-mobile {
 	margin-top: 35px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -278,7 +279,7 @@ a {
 	grid-auto-rows: minmax(100px, auto);
 }
 
-.img-grid img {
+.img-grid-mobile img {
 	display: block;
 }
 
@@ -432,7 +433,7 @@ a {
 	}
 
 	.yellow-eggy-dt {
-		width: 720px;
+		width: min-content;
 		margin-top: 132px;
 		display: block;
 	}
@@ -563,8 +564,17 @@ a {
 
 	/*bottom desktop grid*/
 
-	.img-grid {
+	.img-grid-desktop {
+		margin-top: 70px;
+		margin-bottom: -5px;
+		display: grid;
 		grid-template-columns: repeat(4, 1fr);
+		gap: 0;
+		grid-auto-rows: minmax(100px, auto);
+	}
+
+	.img-grid-mobile {
+		display: none;
 	}
 
 	.milk-bottles-m {
