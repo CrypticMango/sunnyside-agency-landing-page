@@ -74,6 +74,12 @@ img {
 	width: 100%;
 }
 
+/*hidden images*/
+
+.cup-pink-dt, .yellow-eggy-dt, .two-cherries-dt, .juicy-orange-dt {
+	display: none;
+}
+
 /*header start*/
 
 .top-bar {
@@ -325,6 +331,12 @@ a {
 	font-size: 30px;
 }
 
+.socials .fa-brands {
+	margin: 0;
+	font-size: 25px;
+	color: var(--dark-moderate-cyan);
+}
+
 /*desktop styling*/
 
 @media (min-width:1440px) {
@@ -361,6 +373,12 @@ a {
 		letter-spacing: 8px;
 	}
 
+
+	/*hidden images*/
+
+	.yellow-eggy, .cup-pink, .two-cherries, .juicy-orange {
+		display: none;
+	}
 	/*top nav bar desktop*/
 
 	.the-burger {
@@ -404,6 +422,7 @@ a {
 		left: 0;
 		right: 0;
 		top: 0px;
+		display: block;
 	}
 	
 	.white-down-arrow {
@@ -412,20 +431,31 @@ a {
 		margin-bottom: 190px;
 	}
 
-	.yellow-eggy {
+	.yellow-eggy-dt {
 		width: 720px;
+		margin-top: 132px;
+		display: block;
 	}
 
-	.cup-pink {
+	.cup-pink-dt {
 		width: 720px;
+		display: block;
+	}
+
+	.two-cherries-dt {
+		display: block;
+	}
+
+	.juicy-orange-dt {
+		display: block;
 	}
 
 	/*grid setup*/
 
 	.desktop-grid-container {
 		display: grid;
-		grid-template-columns: 720px repeats(2, 1fr);
-		grid-auto-rows: minmax(720px, 720px);
+		grid-template-columns: repeats(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
 	}
 
 	/*egg*/
@@ -461,7 +491,6 @@ a {
 	.d-grid-three {
 		grid-column: 1;
 		grid-row: 2;
-		margin-top: 10px;
 	}
 
 	/*stand out text*/
@@ -484,24 +513,18 @@ a {
 
 	/*cherry graphic design*/
 
-
 	.d-grid-five {
 		grid-column: 1;
 		grid-row: 3;
-		margin-top: -120px;
+	
 	}
 
 	/*orange photography*/
 
-	/*.juicy-orange {
-	
-	}*/
-
 	.d-grid-six {
 		grid-column: 2;
 		grid-row: 3;
-		margin-top: -120px;
-
+		
 	}
 
 	/*learn buttons*/
@@ -509,7 +532,8 @@ a {
 	.learn-more-b:after {
 		width: 22%;
 		margin-top: -5px;
-		right: 12px
+		position: relative;
+		
 	}
 
 	.learn-more-b:hover:after {
@@ -530,14 +554,35 @@ a {
 	/*desktop testimonials horizontal styling*/
 
 	.testimonials-title {
-		margin-top: 600px;
+		margin-top: 260px;
 	}
 
 	.testimonials-desktop {
 		display: flex;
 	}
 
+	/*bottom desktop grid*/
+
 	.img-grid {
 		grid-template-columns: repeat(4, 1fr);
 	}
+
+	.milk-bottles-m {
+		display:none;
+	}
+
+	/*footer*/
+
+	.bottom-links {
+		padding-bottom: 60px;
+	}
+
+	.bottom-site-nav:hover {
+		color: white;
+	}
+
+	.fa-brands:hover {
+		color: white;
+	}
+
 }
