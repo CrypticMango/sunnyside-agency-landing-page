@@ -283,6 +283,10 @@ a {
 	display: block;
 }
 
+.img-grid-desktop {
+	display: none;
+}
+
 /*bottom section*/
 
 .bottom-logo {
