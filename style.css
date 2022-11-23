@@ -517,7 +517,12 @@ a {
 	.d-grid-five {
 		grid-column: 1;
 		grid-row: 3;
-	
+	}
+
+	.graphic-info {
+		padding: 0px 170px;
+		font-size: 18px;
+		line-height: 1.7rem;
 	}
 
 	/*orange photography*/
@@ -525,7 +530,12 @@ a {
 	.d-grid-six {
 		grid-column: 2;
 		grid-row: 3;
-		
+	}
+
+	.photo-info {
+		padding: 0px 170px;
+		font-size: 18px;
+		line-height: 1.7rem;
 	}
 
 	/*learn buttons*/
@@ -555,11 +565,15 @@ a {
 	/*desktop testimonials horizontal styling*/
 
 	.testimonials-title {
-		margin-top: 260px;
+		margin-top: 210px;
+		margin-bottom: 90px;
+		font-size: 22px;
 	}
 
 	.testimonials-desktop {
 		display: flex;
+		margin: 0px 0px 60px 0px;
+		padding: 0px 50px;
 	}
 
 	/*bottom desktop grid*/
