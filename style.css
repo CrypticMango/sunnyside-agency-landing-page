@@ -265,7 +265,7 @@ a {
 
 .testimonial-job {
 	color: var(--grayish-blue);
-	font-size: 13px;
+	font-size: 15px;
 	margin-bottom: 60px;
 }
 
@@ -544,27 +544,26 @@ a {
 
 	/*learn buttons*/
 
+	.learn-more-b {
+		position: relative;
+		left: 15px;
+	}
+
 	.learn-more-b:after {
-		width: 22%;
+		width: 20%;
 		margin-top: -5px;
 		position: relative;
-		
+		left: -9px;
+		top: -1px;
 	}
 
 	.learn-more-b:hover:after {
 		border: 4px solid var(--yellow);
 	}
 
-	.red-b:after {
-		width: 22%;
-		margin-top: -5px;
-		right: 13px
-	}
-
 	.red-b:hover:after {
 		border: 4px solid var(--soft-red);
 	}
-
 
 	/*desktop testimonials horizontal styling*/
 
@@ -602,7 +601,8 @@ a {
 	/*footer*/
 
 	.bottom-links {
-		padding-bottom: 60px;
+		padding-bottom: 80px;
+		padding-top: 40px;
 	}
 
 	.bottom-site-nav:hover {
